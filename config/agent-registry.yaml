@@ -1,0 +1,76 @@
+{
+  "orchestrator": {
+    "role": "ai-ceo",
+    "profile": "CURRENT_MAIN_PROFILE",
+    "mode": "main",
+    "write_permission": "approval_gateway_only"
+  },
+  "specialists": [
+    {
+      "role": "ads-optimizer",
+      "profile": "ads-optimizer",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "creative-director",
+      "profile": "creative-director",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "creative-producer",
+      "profile": "creative-producer",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "data-qa-analyst",
+      "profile": "data-qa-analyst",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "finance-controller",
+      "profile": "finance-controller",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "landing-page-builder",
+      "profile": "landing-page-builder",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "media-buyer",
+      "profile": "media-buyer",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "offer-strategist",
+      "profile": "offer-strategist",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "product-hunter",
+      "profile": "product-hunter",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "product-validator",
+      "profile": "product-validator",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    },
+    {
+      "role": "sales-closer",
+      "profile": "sales-closer",
+      "requires_route_configuration": true,
+      "default_authority": "read_only_or_draft"
+    }
+  ]
+}

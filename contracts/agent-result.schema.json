@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "task_id",
+    "run_id",
+    "version",
+    "sources",
+    "confidence",
+    "created_at",
+    "status",
+    "deliverable",
+    "evidence",
+    "risks",
+    "handoff_to"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "completed",
+        "blocked",
+        "needs_approval",
+        "failed"
+      ]
+    },
+    "deliverable": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "risks": {
+      "type": "array"
+    },
+    "handoff_to": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
