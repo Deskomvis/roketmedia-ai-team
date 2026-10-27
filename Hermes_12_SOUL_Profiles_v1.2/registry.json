@@ -1,0 +1,74 @@
+{
+  "ai-ceo": {
+    "title": "AI CEO / Orchestrator",
+    "soul": "profiles/ai-ceo/SOUL.md",
+    "operational_context": "profiles/ai-ceo/AGENTS.md",
+    "reports_to": "owner"
+  },
+  "product-hunter": {
+    "title": "Product Hunter",
+    "soul": "profiles/product-hunter/SOUL.md",
+    "operational_context": "profiles/product-hunter/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "product-validator": {
+    "title": "Product Validator",
+    "soul": "profiles/product-validator/SOUL.md",
+    "operational_context": "profiles/product-validator/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "offer-strategist": {
+    "title": "Offer Strategist",
+    "soul": "profiles/offer-strategist/SOUL.md",
+    "operational_context": "profiles/offer-strategist/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "creative-director": {
+    "title": "Creative Director",
+    "soul": "profiles/creative-director/SOUL.md",
+    "operational_context": "profiles/creative-director/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "creative-producer": {
+    "title": "Creative Producer",
+    "soul": "profiles/creative-producer/SOUL.md",
+    "operational_context": "profiles/creative-producer/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "landing-page-builder": {
+    "title": "Landing Page Builder",
+    "soul": "profiles/landing-page-builder/SOUL.md",
+    "operational_context": "profiles/landing-page-builder/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "media-buyer": {
+    "title": "Media Buyer",
+    "soul": "profiles/media-buyer/SOUL.md",
+    "operational_context": "profiles/media-buyer/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "ads-optimizer": {
+    "title": "Ads Optimizer",
+    "soul": "profiles/ads-optimizer/SOUL.md",
+    "operational_context": "profiles/ads-optimizer/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "sales-closer": {
+    "title": "AI Sales Closer",
+    "soul": "profiles/sales-closer/SOUL.md",
+    "operational_context": "profiles/sales-closer/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "finance-controller": {
+    "title": "Finance Controller",
+    "soul": "profiles/finance-controller/SOUL.md",
+    "operational_context": "profiles/finance-controller/AGENTS.md",
+    "reports_to": "ai-ceo"
+  },
+  "data-qa-analyst": {
+    "title": "Data & QA Analyst",
+    "soul": "profiles/data-qa-analyst/SOUL.md",
+    "operational_context": "profiles/data-qa-analyst/AGENTS.md",
+    "reports_to": "ai-ceo"
+  }
+}
